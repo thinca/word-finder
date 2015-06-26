@@ -1,0 +1,40 @@
+{
+  "name": "word-finder",
+  "version": "1.0.0",
+  "description": "The word finder.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch",
+    "coffee": "gulp coffee",
+    "lint": "gulp lint",
+    "generate": "gulp generate",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thinca/word-finder.git"
+  },
+  "keywords": [
+    "kanji",
+    "word",
+    "puzzle"
+  ],
+  "author": "thinca <thinca@gmail.com>",
+  "license": "Zlib",
+  "bugs": {
+    "url": "https://github.com/thinca/word-finder/issues"
+  },
+  "homepage": "https://thinca.github.com/word-finder"
+}
